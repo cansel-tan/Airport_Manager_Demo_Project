@@ -8,6 +8,9 @@ public class MoneyZoneWithFill : MonoBehaviour
     public bool oneTimeCollect = true;
     public GameObject visualsRoot;
     public GameObject nextAreaRoot;
+    public GameObject nextCircleRoot;
+    public GameObject nextArrowUpRoot;
+    
     public MainCameraController mainCamera;
     [SerializeField] private CheckZoneHighlight nextCheckZone;
 
@@ -93,6 +96,12 @@ public class MoneyZoneWithFill : MonoBehaviour
 
         if (nextAreaRoot != null)
             nextAreaRoot.SetActive(true);
+
+        if (nextCircleRoot != null)
+            nextCircleRoot.SetActive(true);
+
+        if (nextArrowUpRoot != null)
+            nextArrowUpRoot.SetActive(true);
 
         if (nextCheckZone != null)
             nextCheckZone.SetActive();
