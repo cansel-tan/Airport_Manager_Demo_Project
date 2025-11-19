@@ -29,4 +29,4 @@ Concise technical brief for the Airport Manager mobility case. Focus is on demon
 
 ## APK
 
-- Drive link for reviewers: https://drive.google.com/file/d/1emWsWyjJa3a7gQ_0warW-feyRtTf3Xxp/view?usp=sharing
+- Drive link for reviewers: https://drive.google.com/file/d/1t3G_jvmsb50JXtquEAPnsy2srUruBx-y/view?usp=sharing
