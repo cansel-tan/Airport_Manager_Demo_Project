@@ -10,6 +10,7 @@ public class PlayerBaggageStack : MonoBehaviour
     private readonly List<Transform> _stack = new List<Transform>();
 
     public int Count => _stack.Count;
+    public bool isDropped = false;
 
     public void Add(Transform bag)
     {
@@ -61,5 +62,7 @@ public class PlayerBaggageStack : MonoBehaviour
         }
 
         _stack.Clear();
+
+        isDropped = true;
     }
 }

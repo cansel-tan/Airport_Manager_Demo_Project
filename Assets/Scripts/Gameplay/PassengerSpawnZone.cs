@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PassengerSpawnZone : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class PassengerSpawnZone : MonoBehaviour
     public Transform passengersParent;    
 
     public PassengerBoardingManager boardingManager;
+    public GameObject nextAreaRoot;
 
     [Header("Opsiyonel: Kuyruk kontrolü")]
     public PassengersLineController lineController;
@@ -27,6 +29,8 @@ public class PassengerSpawnZone : MonoBehaviour
     {
         if (!other.CompareTag("Player")) return;
         if (hasSpawned) return;
+        if (!nextAreaRoot.activeSelf) return;
+
 
         hasSpawned = true;
         Debug.Log("[PassengerSpawnZone] Player girdi, yolcular spawn edilecek.");

@@ -21,7 +21,7 @@ public class MoneyZoneWithFill : MonoBehaviour
     private bool collected;
     private float timer;
 
-   
+    public bool isCollected => collected;
 
     private void Start()
     {
