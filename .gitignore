@@ -1,0 +1,34 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+Recordings/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+
+# Rider / Visual Studio
+.vs/
+.idea/
+*.userprefs
+
+# Crash logs
+*.stacktrace
+
+# Auto-generated
+*.unitypackage
+.DS_Store
